@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+    <style>
+        body{
+            background-color: #302323;
+        }   ;
+    </style>
+</head>
+<body>
+    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=600" 
+    width="300px"
+    alt="no image">
+<br>
+    <img src="./images/ControlMeasureImage.jpeg" 
+    width="200px"
+    alt="no image">
+<br>
+    <img src="./images/codingpage.jpg" 
+    width="300px"
+    alt="no image">
+<br>
+    <picture>
+        <source 
+        media="(min-width: 100px,mix-width: 300px, )"
+        srcset="./images/codingpage.jpg"
+        />
+        <source 
+        media="(min-width: 100px,mix-width: 300px, )"
+        srcset="./images/codingpage.jpg"
+        />
+        <img width="300px" src="./images/ControlMeasureImage.jpeg" alt="">
+    </picture>
+
+<!-- image map generator -->
+
+<img src="./images/Varungrouplogo.jpg" usemap="#image-map">
+
+    <map name="image-map">
+    <area onclick="one()" target="" alt="" title="" href="" coords="459,488,127,873" shape="rect">
+    <area onclick="two()" target="" alt="" title="" href="" coords="473,490,1339,866" shape="rect">
+    <area onclick="three()" target="" alt="" title="" href="" coords="709,891,1097,965" shape="rect">
+    </map>
+
+<script>
+    function one(){
+            alert("you clicked on one")
+    }
+    function two(){
+            alert("you clicked on two")
+    }
+    function three(){
+            alert("you clicked on three")
+    }
+    function four(){
+            alert("you clicked on four")
+    }
+</script>
+
+</body>
+</html>
