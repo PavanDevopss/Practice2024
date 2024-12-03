@@ -80,14 +80,27 @@
 // console.log(+false);
 
 
-let x = 3;
-const y = x++;
+// let x = 3;
+// const y = x++;
 
-console.log(`x:${x}, y:${y}`);
-// Expected output: "x:4, y:3"
+// console.log(`x:${x}, y:${y}`);
+// // Expected output: "x:4, y:3"
 
-let a = 3;
-const b = ++a;
+// let a = 3;
+// const b = ++a;
 
-console.log(`a:${a}, b:${b}`);
-// Expected output: "a:4, b:4"
+// console.log(`a:${a}, b:${b}`);
+// // Expected output: "a:4, b:4"
+
+
+let t = 5
+const j = (++t)
+
+console.log(` t:${t},t :${j} `);
+
+
+let K = 5
+const l = (t++)
+
+console.log( `K:${K}, t :${l}` );
+
