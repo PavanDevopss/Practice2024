@@ -82,7 +82,44 @@ console.log(Math.ceil(Math.random() * ((max - min) + 1)));
 // console.log(Math.random()*10);
 // console.log(Math.random()*10+1);
 
-const Amin = 10
-const Amax = 20
+// const Amin = 10
+// const Amax = 20
 
-console.log(Math.floor(Math.random() * (Amax - Amin) + 1));
+// console.log(Math.floor(Math.random() * (Amax - Amin) + 1));
+
+// const score = 200
+// console.log(score);
+// console.log(typeof score);
+
+
+// const balance = new Number (192.393)
+// console.log(balance);
+// console.log(typeof balance);
+
+// const otherNumber = 12038402.937
+// console.log(otherNumber);
+
+// console.log(typeof otherNumber);
+// console.log(otherNumber.toString());
+// console.log(otherNumber.toString().length);
+// console.log(otherNumber.toFixed(12));
+// console.log(otherNumber.toPrecision(2));
+// console.log(otherNumber.toLocaleString('en-IN'));
+
+// *************************Maths********************
+
+// console.log(Math);
+// console.log(Math.abs(-4));
+// console.log(Math.round(4.5));
+// console.log(Math.ceil(1.1,2.1,3.1,4,2.5,7,-3.2,4));
+// console.log(Math.floor(4.1,1.1,2.1,3.1,4,2.5,7,-3.2,4));
+// console.log(Math.min(1,2,3,4,5,7,-2,4));
+// console.log(Math.max(1,12,3,4,5,7,-2,4));
+
+// console.log(Math.random());
+// console.log(Math.random() * 10 + 1 );
+
+const Bmin = 10
+const Bmax = 20
+
+console.log(Math.ceil(Math.random() * ( (Bmax - Bmin) + 1)));
