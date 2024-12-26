@@ -1,0 +1,64 @@
+// array
+
+const myArr = [-0,0,"Pavan",1,2,3,4,5]
+const myHero = ["Hanuman", "IronMan", "Spiderman"]
+
+const myArr2 = new Array(1,2,3,4)
+
+// console.log(myArr);
+// console.log("------------1st-----------");
+// console.log(myArr[0]);
+
+// Array methods
+// console.log("------------2nd-----------");
+
+// myArr.push(6)
+// myArr.push(7)
+// myArr.pop()
+// console.log(myArr);
+// console.log("------------Original-----------");
+
+// myArr.unshift(9)
+// console.log(myArr);
+// console.log("------------after(unshift)-----------");
+
+// myArr.shift()
+// console.log(myArr);
+// console.log("------------after(shift)-----------");
+
+// myArr.shift()
+// console.log(myArr);
+// console.log("------------after(shift)-----------");
+
+// console.log(myArr.includes(0));
+// console.log(typeof myArr.includes(0));
+
+// console.log(myArr.indexOf("Pavan"));
+// console.log(typeof myArr.indexOf("Pavan"));
+
+const newArr = myArr.join()
+
+// console.log(myArr);
+// console.log(typeof myArr);
+// console.log("---------------change of method into join---------------");
+// console.log(newArr);
+// console.log(typeof newArr);
+
+// slice , splice 
+
+console.log("---------------Original---------------");
+const myn = myArr
+console.log("original-Input",myArr);
+console.log("a",myn);
+
+console.log(typeof myn);console.log("---------------Slice---------------");
+const myn1 = myArr.slice(1,5)
+console.log("original-Input",myArr);
+console.log("b",myn1);
+
+
+
+console.log("---------------Splice---------------");
+const myn2 = myArr.splice(1,5)
+console.log("original-Input",myArr);
+console.log("c",myn2);
