@@ -80,7 +80,7 @@ const used1 = [
 
 // console.log(used1[1].name);
 
-console.log(tinderUser);
+// console.log(tinderUser);
 // console.log(`------------------------------------------`);
 // console.log(Object.keys(tinderUser));
 // console.log(`------------------------------------------`);
@@ -90,7 +90,7 @@ console.log(tinderUser);
 
 
 // this is to check if the property is there or not ...
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
 
@@ -208,3 +208,33 @@ const kum = [
 // console.log(`---------------------------`);
 
 // console.log(jinker.hasOwnProperty("id"));
+
+
+const course = {
+    coursename: "Js in Hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+// console.log(course.courseInstructor);
+
+const {courseInstructor: instructor} =  course
+
+// console.log(courseInstructor);
+
+// console.log(instructor);
+
+// {
+//     name: "Pavan",
+//     coursename: "js in hindi",
+//     price: "free"
+// }
+
+
+[
+    {},
+    {},
+    {}
+]
