@@ -174,3 +174,49 @@
 // }
 
 // console.log(fbUsername("Pavan"));
+
+
+// function calCartPrice(...num1){ //this three dots are known as ( rest operator )
+//     return num1
+// }
+
+// console.log(calCartPrice(200,400,500,2000,5000));
+
+// function calCartPrice(val1,val2, ...num1){ //this three dots are known as ( rest operator )
+//     return num1
+// }
+
+// console.log(calCartPrice(200,400,500,2000,5000));
+
+// const user = {
+//     bookname: "OG",
+//     price: 199
+// }
+
+// function handleObject(anyobject){
+//     console.log(`Bookname is ${anyobject.bookname} and price is ${anyobject.price}`);
+// }
+
+// handleObject(user)
+// console.log(handleObject(user));
+
+const user = {
+    bookname: "OG",
+    prices: 199
+}
+
+function handleObject(anyobject){
+    console.log(`Bookname is ${anyobject.bookname} and price is ${anyobject.prices}`);
+}
+
+// handleObject(user)
+handleObject({
+    bookname: "Love",
+    prices: 299
+})
+
+const myNewArray = [50,250,600,1500]
+function returnSecondValue(getarray){
+    return getarray[1]
+}
+console.log(returnSecondValue(myNewArray));
