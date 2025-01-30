@@ -45,7 +45,7 @@
 // console.log("These are all the Datatypes in javaScript");
 
 
-// // stack (Primitive datatype) and heap (Non Primitive datatype)
+// // // // stack (Primitive datatype) and heap (Non Primitive datatype)
 
 // let myHomeChannel = "JS_tutiorials"
 
@@ -95,7 +95,7 @@
 
 // const Value = 1000
 
-// console.log( `Hai my name is ${name}, i have a repository of ${repoCount} in Count, do you want to now the value ?,its ${Value}` );
+// console.log( `Hai my name is ${name}, i have a repository of ${repoCount} in Count, do you want to know the value ?,it is: ${Value}` );
 
 // const gameName = new String ("Pavanu@hike@com")
 

@@ -21,10 +21,6 @@ let myCreDate = new Date (2023, 1, 22, 6, 30)
 // console.log(myCreDate);
 // console.log(myCreDate.toString());
 // console.log(myCreDate.toLocaleString());
-
-let myTimeStamp = Date.now();
-// console.log(myTimeStamp.toString());
-
 // console.log(myCreDate.getTime());
 // console.log(myCreDate.getDate());
 // console.log(myCreDate.getDay());
@@ -32,8 +28,10 @@ let myTimeStamp = Date.now();
 // console.log(myCreDate.getHours());
 // console.log(myCreDate.getMilliseconds());
 // console.log(myCreDate.getMinutes());
-// console.log(Date.now()/1000);
 
+let myTimeStamp = Date.now();
+// console.log(myTimeStamp.toString());
+// console.log(Date.now()/1000);
 // console.log(Math.floor(Date.now()/1000));
 
 let newDate = new Date();

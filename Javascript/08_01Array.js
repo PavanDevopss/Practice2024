@@ -2,14 +2,13 @@
 
 const myArr = [-0,0,"Pavan",1,2,3,4,5]
 const myHero = ["Hanuman", "IronMan", "Spiderman"]
-
 const myArr2 = new Array(1,2,3,4)
 
 // console.log(myArr);
 // console.log("------------1st-----------");
 // console.log(myArr[0]);
-
-                                                                                // Array methods
+// 
+//                                            // Array methods
 //
 // 
 //  console.log("------------2nd-----------");
@@ -33,10 +32,11 @@ const myArr2 = new Array(1,2,3,4)
 // console.log("------------after(shift)-----------");
 
 // console.log(myArr.includes(0));
-// console.log(typeof myArr.includes(0));
+// console.log(typeof myArr.includes(0));  // boolean value
 
 // console.log(myArr.indexOf("Pavan"));
-// console.log(typeof myArr.indexOf("Pavan"));
+// console.log(typeof myArr.indexOf("Pavan")); //String value
+// console.log(typeof myArr.indexOf(3)); // integer value
 
 const newArr = myArr.join()
 
@@ -44,26 +44,28 @@ const newArr = myArr.join()
 // console.log(typeof myArr);
 // console.log("---------------change of method into join---------------");
 // console.log(newArr);
-// console.log(typeof newArr);
+// console.log(typeof newArr); // value is changed to string
 
 // slice , splice 
 
 // console.log("---------------Original---------------");
 // const myn = myArr
 // console.log("original-Input",myArr);
-// console.log("a",myn);
+// console.log("a:",myn);
+// console.log(typeof myn);
 
-// console.log(typeof myn);console.log("---------------Slice---------------");
+// console.log("---------------Slice---------------");
 // const myn1 = myArr.slice(1,5)
 // console.log("original-Input",myArr);
-// console.log("b",myn1);
-
-
+// console.log("b:",myn1);
+// console.log(typeof myn1);
 
 // console.log("---------------Splice---------------");
 // const myn2 = myArr.splice(1,5)
 // console.log("original-Input",myArr);
-// console.log("c",myn2);
+// console.log("c:",myn2);
+// console.log(typeof myn2);
+
 
 // myArray
 
@@ -80,10 +82,10 @@ const myArray2 = new Array(1,2,3,4,5,6,7,8,9)
 // console.log(myHeros[0]);
 // console.log(myArray2[0]);
 
-                                                              // Array Methods //
+                                           // Array Methods //
 
 
-// push , pop , shift , include, index , join 
+// push , pop , shift , unshift , include, index , join // Slice & splice
 
 // myArray.push(10)
 // console.log(myArray);
@@ -116,10 +118,10 @@ const myArray2 = new Array(1,2,3,4,5,6,7,8,9)
 const myArray3 = ["Pavan",1,2,17,4,5,16,7,8,9,6]
 
 
-// console.log(myArray3.includes(5));
+// console.log(myArray3.includes(5)); // gives the output in boolean value
 // console.log(typeof myArray3.includes);
 
-// console.log(myArray3.indexOf("Pavan"));
+// console.log(myArray3.indexOf("Pavan")); // gives the output as values place in number
 // console.log(typeof myArray3.indexOf(9));
 
 const newArray1 = myArray3.join()

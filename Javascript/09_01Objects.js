@@ -21,7 +21,7 @@ const jsUser = {
 // console.log(jsUser.name);
 // console.log(jsUser["full_name"]);
 // console.log(jsUser["email"]);
-// console.log(jsUser.mySym);
+// // console.log(jsUser.mySym);
 // console.log(jsUser[mySym]);
 // console.log(typeof jsUser[mySym]);
 
