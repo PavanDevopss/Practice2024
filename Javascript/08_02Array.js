@@ -33,7 +33,7 @@ Array.isArray(pinku)
 // Array.isArray() is a method that returns true if the value you pass is an array, and false otherwise.
 // Since pinku is a string (not an array), the result will be false.
 
-// console.log(Array.from(pinku));
+// console.log(Array.isArray(pinku));
 
 Array.from(pinku)
 // This converts the string pinku into an array.
@@ -66,5 +66,4 @@ console.log(Array.of(score1,score2,score3));
 // Key Difference:
 // numPa is an array you created manually using the square brackets [].
 // Array.of() creates an array from the values passed as arguments. (score1,score2,score3)
-
 // take a value and push for array output, use concat, spread, flat(infinity), of --> methods

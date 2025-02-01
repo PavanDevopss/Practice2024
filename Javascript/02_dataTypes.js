@@ -9,7 +9,7 @@ let isLoggedIn = false
 
 // number => 2 to the power of 53
 
-// number, bigint, string, boolean = true ot false, 
+// number, bigint, string, boolean = true or false, 
 // null => standalone value
 // undefined => 
 // symbol => unique

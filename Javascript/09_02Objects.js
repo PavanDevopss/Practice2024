@@ -96,7 +96,7 @@ const used1 = [
 
 // -------------------------------------------------------------2nd practice -----------------------------------------------------
 
-const Bunker = new Object // simpletion with constructer
+const Bunker = new Object // simpleton with constructer
 
 const bunker1 = {} // object literals
 
