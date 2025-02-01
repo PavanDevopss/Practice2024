@@ -22,13 +22,16 @@
 // add2Numbers(2,9)
 // add2Numbers(2,"2")
 // add2Numbers(2,"a")
+
+
 // function add2Numbers(num1,num2,num3){
 //     let result = (num1+num2+num3)
 //     return result
 // }
-
 // const result = add2Numbers(2,0,0)
 // console.log("Result: ", result);
+
+
 // function add9nums(num1,num2,num3,num4,num5,num6,num7,num8,num9){
 //     let result = (num1+num2+num3+num4+num5+num6+num7+num8+num9)
 //     return result
@@ -37,6 +40,11 @@
 // const result = add9nums(50,150,400,1000,2500,6000,14000,26000,55000)
 // console.log("total Invested Amount :", result);
 
+// Key Difference:
+// Calling a function just executes the code inside the function. 
+// If there's no return, you don't get anything back.
+// Using return allows the function to send a result back to where it was called, 
+// so you can use that result.
 
 // function multi2num(num10,num11){
 //     let result1 = (num10*num11)
@@ -85,7 +93,7 @@
 // console.log(bookMessage());
 
 // function bookMessage(msg1){
-//     if(!msg1){
+//     if(!msg1){ // this represents that input is not defined (undefined)
 //         console.log(`Kindly please check your order ${msg1} hasn't booked yet try again`);
 //         return
 //     }
@@ -94,6 +102,9 @@
 
 // // bookMessage()
 // console.log(bookMessage("'Fasak'"));
+
+
+// -----------------------------------------------practice-------------------------------------
 
 // console.log("P");
 // console.log("A");
@@ -118,15 +129,12 @@
 // console.log(sayMyName());
 
 // function addTwoNumbers(number1,number2){
-//     console.log(number1 + number2);
-    
+//     console.log(number1 + number2);  
 // }
 // console.log("");
-
 // addTwoNumbers(5 ,9)
 // addTwoNumbers(5 ,"2")
 // addTwoNumbers(5 , "a")
-
 // const result = addTwoNumbers(2,3)
 
 
@@ -165,15 +173,15 @@
 
 // console.log(fbUsername());
 
-// function fbUsername(username = "Thanu"){
+// function fbUsername(username = "Thanu"){ // default value is thanu
 //     if(!username){
 //         console.log(" Username is not defined , Please enter : ");
 //         return
 //         }
-//     return `Please enter your username:  ${username}`
+//     return `Hi there ${username}, How are you ... Have a great day a head...`
 // }
 
-// console.log(fbUsername("Pavan"));
+// console.log(fbUsername("Pavan")); // recent value is Pavan
 
 
 // function calCartPrice(...num1){ //this three dots are known as ( rest operator )
@@ -215,8 +223,12 @@ handleObject({
     prices: 299
 })
 
+
+
 const myNewArray = [50,250,600,1500]
-function returnSecondValue(getarray){
-    return getarray[1]
+function returnSecondValue(anyArray){
+    return anyArray[1]
 }
-console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([22,26,28,99,107]));
+
+// console.log(returnSecondValue(myNewArray));

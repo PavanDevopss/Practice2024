@@ -169,7 +169,8 @@ const oj7 = Object.assign({},oj1,oj2,oj3)
 
 // console.log(oj7);
 // console.log(`----------------------------------------------`);
-// const oj9 = {...oj1, ...oj2, ...oj3}
+
+const oj9 = {...oj1, ...oj2, ...oj3}
 // console.log(oj9);
 
 const kum = [
