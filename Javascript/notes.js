@@ -46,4 +46,21 @@
 // Write a two IIFE in same function file and execute it
 //
 //
-//
+//There are three steps for every code to start to end point
+
+// 1. Gobal Execution Context
+// 2. Function Exection Context
+// 3. Eval Execution Context
+
+// , while execution all the code - there 3 steps 
+
+// 1. Global Execution Context ( this ), Global Environment
+// 2. Memory Creation Phase --> Variable are : undefined, if there are any function it will be : definitions 
+// its stores all the data of the code
+// 3. Execution Phase -->  It executive all the stored code and defined ones to run the code
+
+// while in execution it creates a sandbox , runs the code , stores the value in ( gobal env ) then deletes the sandbox in backend
+
+// we can see this process in browers -- call stack with break points
+// Sandbox again runs Memory Phase and Execution Phase then and there to run the execution
+// Java script is a single threaded complier
