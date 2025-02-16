@@ -64,3 +64,30 @@
 // we can see this process in browers -- call stack with break points
 // Sandbox again runs Memory Phase and Execution Phase then and there to run the execution
 // Java script is a single threaded complier
+
+// ------------------------------- IF Condition ---------------------
+
+// create a rating system with let varaiable and print suing if statement
+// create a temparture system using the const varaiable , if condition, else if statement
+// create if statements with all <,>,<=,>=,==,!=,===,!== operators
+// create a simple implicit scope line of code and print, also using comma
+// create a if statement using && and || and print them on log using const as variable
+// 
+
+// ------------------------------- Switch Statement ---------------------
+
+// create a switch statement using numbers and print on console
+// create a switch statement using string and print on console
+// create a switch statement without break and print on console
+
+// ------------------------------- Truthy & falsy ---------------------
+
+// create a statements using all the truthy values and print statement
+// create a statements using all the falsy values and print statement 
+// check the truthy & falsy value in internet browser and print statement on console
+
+// ------------------------------- Nullish Coalescing & Turniary Operator  ---------------------
+
+// using the null and undefned data types print the values using ?? 
+// using the turnairy operator for true or false types print the values 
+
