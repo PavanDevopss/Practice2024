@@ -15,7 +15,7 @@ for (const greet of greetings) {
     // console.log(`Each chart to form is: ${greet}`);
 }
 
-// Maps is non primitive datatpe with unique values in given order
+// Maps is non primitive datatype with unique values in given order
 
 const oldMap = new Map
 
